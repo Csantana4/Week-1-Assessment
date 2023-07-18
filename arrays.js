@@ -42,12 +42,15 @@ let middleNums1 = numbers.shift()
 const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 
 // CODE HERE
-let answers = 0
+let answers = []
 
 for(let i = 0; i < bigOrSmallArray.length; i++)
   if(bigOrSmallArray[i] > 100){
-    console.log('Big')
+    answers.push(bigOrSmallArray[i])
+      console.log('big')
+    
   } else{
-    console.log("small")
+    console.log('small')
   }
-
+  
+  

@@ -54,6 +54,7 @@ let gitStatusDefinition = 'git status shows you the changes made to a repository
 
 //CODE HERE
 let gitAddDefinition = 'git add will add any changes to the repository'
+let gitAddCode = 'git add .'
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  

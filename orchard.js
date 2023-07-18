@@ -52,14 +52,13 @@ const pinkPrice = .55
 // CODE HERE
 let totalAcres = 0
 
-for(let i = 1; [i] <= fujiAcres.length; i++){
-    totalAcres += fujiAcres
-    console.log(totalAcres[i])
-}
-
-
-
-
+        for (i=0; i < fujiAcres.length; i++){
+            {
+                totalAcres += fujiAcres[i];
+            }
+            console.log(totalAcres)
+    } 
+ 
 
 
 
